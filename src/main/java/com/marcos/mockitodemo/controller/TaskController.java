@@ -19,7 +19,7 @@ public class TaskController {
 		return taskService.findTask(id);
 	}
 
-	@PostMapping("/")
+	@PostMapping
 	public Task saveTask(@RequestBody Task task) {
 		return taskService.saveTask(task);
 	}
