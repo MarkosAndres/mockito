@@ -17,7 +17,7 @@ import static org.hamcrest.Matchers.*;
 
 @RunWith(SpringRunner.class)
 @WebMvcTest(controllers = TaskController.class, secure = false)
-public class TaskServiceUnitTest {
+public class TaskControllerUnitTest {
 
 	@Autowired
 	private MockMvc mockMvc;
